@@ -50,31 +50,56 @@ h1 h2 h3 h4 {
     width: 500px;
     margin-right: auto;
     margin-left: auto;
-    
-    
+
+
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-content: space-between
 }
 
-@media screen and (max-width: 50rem){ 
-header,
-main,
- footer { 
-    flex-direction: column;
+@media screen and (max-width: 50rem) {
+
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+
     }
+    form input, textarea{
+        margin: 2px 0;
+    }
+    form select {
+        margin:0;
+    }
+    form p {
+        display: flex;
+        margin-bottom: 1em;
+
+    }
+
+    form label {
+        flex-basis: 33%;
+    }
+
+    form input,
+    textarea,
+    select {
+        flex: 1;
+        margin:0 1em;
+        border-radius: 5px;
+    }
+
+    form select {
+        text-align: center;
+    }
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
