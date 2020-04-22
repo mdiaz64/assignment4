@@ -1,0 +1,80 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h2,
+h3 {
+    color: firebrick;
+    font-family: fantasy;
+    font-weight: 600;
+    font-size: 1.5em;
+    background-color: #fff;
+    transition: background-color .3s, color .3s;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/logo-food.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+
+}
+
+main {
+    background-color: #fff;
+}
+
+
+
+#somename {
+    color: firebrick;
+    font-size: 3.2em;
+    font-family: cursive;
+    border: 5px solid #5c5ca8;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+.somename {
+    color: firebrick;
+    font-size: 2.2em;
+    font-family: fantasy;
+    border: 5px solid #5c5ca8;
+}
+
+h1 h2 h3 h4 {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between
+}
+
+@media screen and (max-width: 50rem){ 
+header,
+main,
+ footer { 
+    flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
